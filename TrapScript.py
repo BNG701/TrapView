@@ -8,9 +8,8 @@ import sys
 
 
 os.system('pip install Figlet')
-os.system("clear")
 os.system('pip install pyfiglet')
-
+os.system("clear")
 ascii_banner = pyfiglet.figlet_format("TrapView")
 print(ascii_banner)
 print("___________________________________________")
@@ -50,3 +49,4 @@ rapport.close()
 print('[+] Creation du rapport Terminer ')
 
 	
+
