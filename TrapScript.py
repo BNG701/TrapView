@@ -8,6 +8,7 @@ import sys
 
 
 os.system('pip install Figlet')
+os.system("clear")
 os.system('pip install pyfiglet')
 
 ascii_banner = pyfiglet.figlet_format("TrapView")
