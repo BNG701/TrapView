@@ -1,3 +1,5 @@
+os.system('python -m pip install Figlet')
+os.system('python -m pip install pyfiglet')
 import webbrowser
 import pyfiglet
 from pyfiglet import Figlet
@@ -7,8 +9,7 @@ import os
 import sys
 
 
-os.system('pip install Figlet')
-os.system('pip install pyfiglet')
+
 os.system("clear")
 ascii_banner = pyfiglet.figlet_format("TrapView")
 print(ascii_banner)
