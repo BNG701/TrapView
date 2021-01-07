@@ -13,6 +13,7 @@ import sys
 
 os.system("clear")
 ascii_banner = pyfiglet.figlet_format("TrapView")
+print('                                Version 1.1')
 print(ascii_banner)
 print("___________________________________________")
 print("                           By @Dr_sans_fil ")
