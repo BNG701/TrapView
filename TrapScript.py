@@ -49,6 +49,6 @@ print('[+] Creation du rapport du scan .... \n File: Rapport['+ipadress+'].txt')
 
 rapport.close()
 print('[+] Creation du rapport Terminer ')
+webbrowser.open("Rapport["+ipadress+"].txt")
 
 	
-
