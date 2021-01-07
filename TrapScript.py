@@ -1,3 +1,4 @@
+import os
 os.system('python -m pip install Figlet')
 os.system('python -m pip install pyfiglet')
 import webbrowser
@@ -5,7 +6,7 @@ import pyfiglet
 from pyfiglet import Figlet
 import socket
 import datetime
-import os
+
 import sys
 
 
