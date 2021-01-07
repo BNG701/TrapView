@@ -3,6 +3,11 @@ import pyfiglet
 from pyfiglet import Figlet
 import socket
 import datetime
+import os
+import sys
+
+
+os.system('pip install Figlet')
 
 ascii_banner = pyfiglet.figlet_format("TrapView")
 print(ascii_banner)
