@@ -7,6 +7,7 @@ from pyfiglet import Figlet
 import socket
 import datetime
 import sys
+os.system('clean')
 ascii_banner = pyfiglet.figlet_format("TrapView")
 print('\u001b[32m' +ascii_banner)
 print(" ___________________________________________")
