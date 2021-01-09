@@ -21,6 +21,7 @@ def scan_port(ipadress,port):
 	try:
 		sock = socket.socket()
 		sock.connect((ipadress,port))
+		sock.connect((ipadress,port))
 		print('\u001b[32m [+] \u001b[0m : port ' + str(port) + ' is open')
 		rapport.write('[+] port ' + str(port) + ' is open\n')
 
