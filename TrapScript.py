@@ -7,6 +7,7 @@ from pyfiglet import Figlet
 import socket
 import datetime
 import sys
+os.system('clear')
 ascii_banner = pyfiglet.figlet_format("TrapView")
 print('\u001b[32m' +ascii_banner)
 print(" ___________________________________________")
@@ -57,7 +58,7 @@ try:
 			plus_text = os.system('whois '+ ipadress+'')
 
 
-
+		print("\u001b[32m --__--__--__-- FIN --__--__--__--__--__")
 		rapport.write(str(plus_text))
 
 except socket.error:
