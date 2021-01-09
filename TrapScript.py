@@ -1,13 +1,13 @@
 import os
-#os.system('python -m pip install Figlet')
-#os.system('python -m pip install pyfiglet')
+os.system('python -m pip install Figlet')
+os.system('python -m pip install pyfiglet')
 import webbrowser
 import pyfiglet
 from pyfiglet import Figlet
 import socket
 import datetime
 import sys
-
+os.system('clear')
 ascii_banner = pyfiglet.figlet_format("TrapView")
 print('\u001b[32m' +ascii_banner)
 print(" ___________________________________________")
