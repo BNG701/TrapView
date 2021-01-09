@@ -46,7 +46,6 @@ else:
 		scan_port(ipadress, port)
 
 	print('_______ FIN DU SCAN ___________')
-	print("\u001b[32m Possibilites d\'ataque :" + str(port_open) )
 	rapport.write('========================= FIN ===================================\n')
 	print('\u001b[0m [+] Creation du rapport du scan .... \n File: Rapport['+ipadress+'].txt')
 	rapport.close()
