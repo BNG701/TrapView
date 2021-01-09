@@ -7,7 +7,6 @@ from pyfiglet import Figlet
 import socket
 import datetime
 import sys
-os.system('clear')
 ascii_banner = pyfiglet.figlet_format("TrapView")
 print('\u001b[32m' +ascii_banner)
 print(" ___________________________________________")
@@ -51,11 +50,19 @@ try:
 		print('__________ FIN DU SCAN ______________')
 		rapport.write('========================= FIN ===================================\n')
 		print('\u001b[0m [+] Creation du rapport du scan .... \n File: Rapport['+ipadress+'].txt')
-		rapport.close()
+
 		print('[+] Creation du rapport Terminer ')
+		plus =input(" \u001b[33m Recuperer plus d'info ? \u001b[37m [y/n]:")
+		if plus == "y":
+			plus_text = os.system('whois '+ ipadress+'')
+
+
+
+		rapport.write(str(plus_text))
+
 except socket.error:
 	print("\u001b[31m [Fatal Error] \u001b[0m : Ip Invalide Ex :[xxx.xxx.xxx.xxx]")
-
+rapport.close()
 	#print("\u001b[31m [Error] \u001b[0m : Veuillez Selectionner une option valide !")
 
 
