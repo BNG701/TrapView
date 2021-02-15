@@ -51,7 +51,7 @@ ipadress=input('[+] Entrez une adresse Ip :')
 try:
 	socket.inet_aton(ipadress)
 	print('Entrez une plage de port a Scanner ')
-	debut :int =input('Allant de  : ')
+	debut =input('Allant de  : ')
 	fin :int=input('a  : ')
 	s =int(fin)-int(debut)
 
