@@ -52,7 +52,7 @@ try:
 	socket.inet_aton(ipadress)
 	print('Entrez une plage de port a Scanner ')
 	debut =input('Allant de  : ')
-	fin :int=input('a  : ')
+	fin=input('a  : ')
 	s =int(fin)-int(debut)
 
 	if int(s)<3:
